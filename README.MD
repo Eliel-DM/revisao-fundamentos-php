@@ -31,6 +31,25 @@ Crie uma função que converte Celsius ↔ Fahrenheit.
 - Recebe o valor e a escala ('C' ou 'F').
 - Se a escala for inválida, retorne um aviso.
 
+### Exercício 3: Pares e Ímpares
+
+Percorra um array fixo de números inteiros.
+
+- Exiba apenas os números pares.
+- Conte e exiba a quantidade de números ímpares.
+
+### Exercício 4: Média e Status do Aluno
+
+Calcule a média das notas (array associativo).
+
+- Exiba: Aprovado (≥7), Recuperação (5 a 6.9) ou Reprovado (<5).
+
+### Exercício 5: Contagem Regressiva Fatorial
+
+Crie uma função para calcular o fatorial de um número (usando loop).
+
+- Depois, exiba o fatorial de todos os números de 10 a 1 (regressivo).
+
 ---
 
 ## 🚀 Como Executar
@@ -50,16 +69,8 @@ Substitua Calculadora.php pelo nome do arquivo desejado.
 
 - [x] Exercício 1 - Calculadora.php ✅
 - [x] Exercício 2 - ConversorDeTemperatura.php ✅
+- [ ] Exercício 3 - ParesImpares.php
+- [ ] Exercício 4 - MediaAluno.php
+- [ ] Exercício 5 - FatorialRegressivo.php
 
 ---
-
-## 💡 Dicas de Estudo
-
-- Leia o enunciado com calma e tente resolver sozinho.
-- Use var_dump() ou print_r() para depurar arrays.
-- Use PHP_EOL para quebras de linha no terminal.
-- Não tenha pressa: o objetivo é entender a lógica.
-
----
-
-Bons estudos! 🚀
