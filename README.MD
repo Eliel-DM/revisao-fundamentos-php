@@ -2,75 +2,141 @@
 
 Este repositório contém exercícios simples para revisar e consolidar os fundamentos da linguagem PHP.
 
-Lógica, funções, arrays e estruturas de controle.
+Os exercícios abordam conceitos essenciais como:
+
+- Funções
+- Estruturas condicionais
+- Estruturas de repetição
+- Arrays indexados e associativos
+- Manipulação de dados
+- Lógica de programação
 
 ---
 
 ## 📁 Estrutura dos Arquivos
 
-Cada exercício está em um arquivo PHP separado:
+Cada exercício está organizado em um arquivo PHP independente:
 
-- Calculadora.php
-- ConversorDeTemperatura.php
+- `Calculadora.php`
+- `ConversorDeTemperatura.php`
+- `ParesAndImpar.php`
+- `MediaAndStatus.php`
+- `RegressivaFatorial.php`
 
 ---
 
 ## 📝 Lista de Exercícios
 
-### Exercício 1: Calculadora (Calculadora.php)
+### Exercício 1: Calculadora (`Calculadora.php`)
 
-Crie funções para somar, subtrair, multiplicar e dividir.
+Crie funções para:
 
-- Trate a divisão por zero retornando uma mensagem de erro.
-- Exiba os resultados no terminal.
+- Somar
+- Subtrair
+- Multiplicar
+- Dividir
 
-### Exercício 2: Conversor de Temperatura (ConversorDeTemperatura.php)
+Requisitos:
 
-Crie uma função que converte Celsius ↔ Fahrenheit.
+- Tratar divisão por zero retornando uma mensagem de erro.
+- Exibir os resultados no terminal.
 
-- Recebe o valor e a escala ('C' ou 'F').
-- Se a escala for inválida, retorne um aviso.
+---
 
-### Exercício 3: Pares e Ímpares
+### Exercício 2: Conversor de Temperatura (`ConversorDeTemperatura.php`)
+
+Crie uma função que converta:
+
+- Celsius → Fahrenheit
+- Fahrenheit → Celsius
+
+Requisitos:
+
+- Receber o valor e a escala (`C` ou `F`).
+- Retornar uma mensagem caso a escala seja inválida.
+
+---
+
+### Exercício 3: Pares e Ímpar (`ParesAndImpar.php`)
 
 Percorra um array fixo de números inteiros.
 
-- Exiba apenas os números pares.
-- Conte e exiba a quantidade de números ímpares.
+Requisitos:
 
-### Exercício 4: Média e Status do Aluno
+- Exibir apenas os números pares.
+- Contar e exibir a quantidade de números ímpares.
 
-Calcule a média das notas (array associativo).
+---
 
-- Exiba: Aprovado (≥7), Recuperação (5 a 6.9) ou Reprovado (<5).
+### Exercício 4: Média e Status do Aluno (`MediaAndStatus.php`)
 
-### Exercício 5: Contagem Regressiva Fatorial
+Utilize um array associativo contendo as notas de um aluno.
 
-Crie uma função para calcular o fatorial de um número (usando loop).
+Requisitos:
 
-- Depois, exiba o fatorial de todos os números de 10 a 1 (regressivo).
+- Calcular a média.
+- Exibir o status:
+
+| Média   | Status      |
+| ------- | ----------- |
+| ≥ 7     | Aprovado    |
+| 5 a 6.9 | Recuperação |
+| < 5     | Reprovado   |
+
+---
+
+### Exercício 5: Contagem Regressiva e Fatorial (`RegressivaFatorial.php`)
+
+Crie uma função para calcular o fatorial de um número utilizando estruturas de repetição.
+
+Requisitos:
+
+- Exibir o fatorial de todos os números de 10 até 1.
+- Mostrar os resultados em ordem regressiva.
 
 ---
 
 ## 🚀 Como Executar
 
-1. Certifique-se de ter o PHP instalado (versão 7.4 ou superior).
-2. Salve cada exercício em um arquivo .php com os nomes sugeridos acima.
-3. Abra o terminal na pasta dos arquivos.
-4. Execute cada um com o comando:
+### Pré-requisitos
 
+- PHP 7.4 ou superior instalado.
+
+Verifique a instalação:
+
+```bash
+php -v
+```
+
+### Executando os exercícios
+
+Abra o terminal na pasta do projeto e execute:
+
+```bash
 php Calculadora.php
+```
 
-Substitua Calculadora.php pelo nome do arquivo desejado.
+Para executar outro exercício, substitua pelo nome correspondente:
+
+```bash
+php ConversorDeTemperatura.php
+php ParesAndImpar.php
+php MediaAndStatus.php
+php RegressivaFatorial.php
+```
 
 ---
 
 ## ✅ Status dos Exercícios
 
-- [x] Exercício 1 - Calculadora.php ✅
-- [x] Exercício 2 - ConversorDeTemperatura.php ✅
-- [ ] Exercício 3 - ParesImpares.php
-- [ ] Exercício 4 - MediaAluno.php
-- [ ] Exercício 5 - FatorialRegressivo.php
+- [x] Calculadora.php
+- [x] ConversorDeTemperatura.php
+- [x] ParesAndImpar.php
+- [x] MediaAndStatus.php
+- [x] RegressivaFatorial.php
 
 ---
+
+## 🎯 Objetivo
+
+Este projeto foi desenvolvido para praticar os fundamentos da linguagem PHP através de exercícios simples e objetivos, reforçando conceitos básicos de programação e lógica computacional.
